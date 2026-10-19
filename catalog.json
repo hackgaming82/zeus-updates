@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-19T02:41:50.9063885Z",
+    "updated":  "2026-10-19T02:45:23.2575830Z",
     "products":  {
                      "optimisation":  {
                                           "name":  "Zeus Optimisation",
@@ -14,14 +14,14 @@
                                       },
                      "zeus":  {
                                   "name":  "Zeus",
-                                  "latest":  "2.5.3",
+                                  "latest":  "2.5.4",
                                   "importance":  "nouveautes",
-                                  "notes":  "• Nouveau : bilan de santé du PC (note sur 100) dans « Mon PC » et dans le chat (« fais un bilan de mon pc »)\n• Le bilan repère : antivirus coupé, disque plein, appareils sans pilote, vieux pilote graphique, redémarrage en attente, PC jamais redémarré, démarrage chargé, mode économie d\u0027énergie, RAM, Windows 10, logiciels Zeus obsolètes\n• Chaque problème a son bouton pour régler et son « Comment faire ? »\n• Nouveau raccourci « Bilan de santé du PC » sur l\u0027accueil\n• Zeus Optimisation et Zeus Shield peuvent ouvrir directement le bilan (Zeus.exe -Page checkup)\n• L\u0027assistant IA connaît le bilan de ton PC et s\u0027en sert pour te répondre\n• Nouveau : « Tout régler » en un clic dans le bilan (fichiers temporaires, mode d\u0027alimentation, définitions antivirus). Zeus montre la liste avant de faire quoi que ce soit\n• Nouveau : suivi de la note du bilan jour après jour, avec une petite courbe d\u0027évolution\n• 24 nouvelles fiches d\u0027aide : Wi-Fi qui coupe ou disparu, saccades et input lag, Fortnite, Valorant, Minecraft, Roblox, GTA/FiveM, CS2, LoL, Call of Duty, ventilateur bruyant, PC qui se réveille seul, texte flou, icônes disparues, Microsoft Store, installation qui échoue, mail de chantage, double authentification, carte graphique sous-utilisée, PC qui s\u0027éteint en jeu, disque externe invisible, batterie qui ne charge plus\n• Zeus comprend mieux les noms de jeux : « 200 de ping sur valorant » parle du ping, « désinstaller fortnite » de désinstallation\n• Correctif : « mises à jour zeus » ouvre bien les mises à jour des logiciels Zeus\n• Le gras s\u0027affiche proprement dans les réponses, et la voix ne lit plus les symboles\n• Contient Zeus Optimisation 1.0.6",
-                                  "sha256":  "544906891a0316b44ae41c028d74e081d58d38b5b0d27ff3167d54d886148be3",
-                                  "size":  161037136,
+                                  "notes":  "• Nouveau : « ouvre l\u0027explorateur de fichiers » ouvre directement l\u0027Explorateur\n• Zeus comprend les mots collés sans apostrophe (« lexplorateur », « lecran », « sallumer »)\n• Zeus répond quand on lui demande ce qu\u0027il pense de lui (« que penses-tu de ta création »)\n• Un prénom tapé tout en majuscules s\u0027affiche normalement (« HENZO » → « Henzo »)\n• Zeus Shield s\u0027installe depuis Zeus sans aucune question (avec la prochaine version de Zeus Shield)\n• Nouveau : Zeus voit les nouvelles versions de Zeus, Zeus Optimisation et Zeus Shield publiées en ligne, sans réinstaller Zeus\n• La mise à jour de Zeus se télécharge en arrière-plan, avec le pourcentage, et ne fige plus la fenêtre\n• Contient Zeus Optimisation 1.0.6\n• Contient Zeus Shield 1.0.2",
+                                  "sha256":  "9b3bd1083872a4bebe03015dbb9c617d43bade10afec5e5baf17515646f290b6",
+                                  "size":  279446640,
                                   "date":  "2026-10-19",
                                   "args":  "/S",
-                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.3/Zeus-Setup-2.5.3.exe"
+                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.4/Zeus-Setup-2.5.4.exe"
                               },
                      "shield":  {
                                     "name":  "Zeus Shield",
