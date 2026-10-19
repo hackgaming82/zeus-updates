@@ -1,0 +1,38 @@
+{
+    "updated":  "2026-10-19T02:41:50.9063885Z",
+    "products":  {
+                     "optimisation":  {
+                                          "name":  "Zeus Optimisation",
+                                          "latest":  "1.0.6",
+                                          "importance":  "correctif",
+                                          "notes":  "Correctifs et améliorations",
+                                          "sha256":  "7aef699ed604a911cf25461a77b076bdbf40baba4a2ceb79280e253ab72d70d5",
+                                          "size":  159651215,
+                                          "date":  "2026-10-19",
+                                          "args":  "/SILENT /SUPPRESSMSGBOXES /NORESTART /CLOSEAPPLICATIONS",
+                                          "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/optimisation-v1.0.6/ZeusOptimisation-Setup-1.0.6.exe"
+                                      },
+                     "zeus":  {
+                                  "name":  "Zeus",
+                                  "latest":  "2.5.3",
+                                  "importance":  "nouveautes",
+                                  "notes":  "• Nouveau : bilan de santé du PC (note sur 100) dans « Mon PC » et dans le chat (« fais un bilan de mon pc »)\n• Le bilan repère : antivirus coupé, disque plein, appareils sans pilote, vieux pilote graphique, redémarrage en attente, PC jamais redémarré, démarrage chargé, mode économie d\u0027énergie, RAM, Windows 10, logiciels Zeus obsolètes\n• Chaque problème a son bouton pour régler et son « Comment faire ? »\n• Nouveau raccourci « Bilan de santé du PC » sur l\u0027accueil\n• Zeus Optimisation et Zeus Shield peuvent ouvrir directement le bilan (Zeus.exe -Page checkup)\n• L\u0027assistant IA connaît le bilan de ton PC et s\u0027en sert pour te répondre\n• Nouveau : « Tout régler » en un clic dans le bilan (fichiers temporaires, mode d\u0027alimentation, définitions antivirus). Zeus montre la liste avant de faire quoi que ce soit\n• Nouveau : suivi de la note du bilan jour après jour, avec une petite courbe d\u0027évolution\n• 24 nouvelles fiches d\u0027aide : Wi-Fi qui coupe ou disparu, saccades et input lag, Fortnite, Valorant, Minecraft, Roblox, GTA/FiveM, CS2, LoL, Call of Duty, ventilateur bruyant, PC qui se réveille seul, texte flou, icônes disparues, Microsoft Store, installation qui échoue, mail de chantage, double authentification, carte graphique sous-utilisée, PC qui s\u0027éteint en jeu, disque externe invisible, batterie qui ne charge plus\n• Zeus comprend mieux les noms de jeux : « 200 de ping sur valorant » parle du ping, « désinstaller fortnite » de désinstallation\n• Correctif : « mises à jour zeus » ouvre bien les mises à jour des logiciels Zeus\n• Le gras s\u0027affiche proprement dans les réponses, et la voix ne lit plus les symboles\n• Contient Zeus Optimisation 1.0.6",
+                                  "sha256":  "544906891a0316b44ae41c028d74e081d58d38b5b0d27ff3167d54d886148be3",
+                                  "size":  161037136,
+                                  "date":  "2026-10-19",
+                                  "args":  "/S",
+                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.3/Zeus-Setup-2.5.3.exe"
+                              },
+                     "shield":  {
+                                    "name":  "Zeus Shield",
+                                    "latest":  "1.0.2",
+                                    "importance":  "correctif",
+                                    "notes":  "• Zeus Shield s\u0027installe et se met à jour depuis Zeus, sans aucune question\n• Zeus Shield apparaît dans « Applications installées » et peut s\u0027y désinstaller\n• Nouveau : boutons « Demander à Zeus », « Vérifier les mises à jour » et « Bilan de santé du PC »",
+                                    "sha256":  "35a49016462d9b4de7dd879ffe099a56d91d3655459ada6284c4365e93336a67",
+                                    "size":  118401172,
+                                    "date":  "2026-10-19",
+                                    "args":  "--zeus-update",
+                                    "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/shield-v1.0.2/ZeusShield-Setup-1.0.2.exe"
+                                }
+                 }
+}
