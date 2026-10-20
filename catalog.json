@@ -1,27 +1,27 @@
 {
-    "updated":  "2026-10-20T00:01:05.3511996Z",
+    "updated":  "2026-10-20T00:12:41.4786040Z",
     "products":  {
                      "optimisation":  {
                                           "name":  "Zeus Optimisation",
-                                          "latest":  "1.0.6",
+                                          "latest":  "1.0.8",
                                           "importance":  "correctif",
-                                          "notes":  "Correctifs et améliorations",
-                                          "sha256":  "7aef699ed604a911cf25461a77b076bdbf40baba4a2ceb79280e253ab72d70d5",
-                                          "size":  159651215,
-                                          "date":  "2026-10-19",
+                                          "notes":  "• Nouvelle page « Windows 11 » : vérifie si ton PC peut passer à Windows 11, et peut le faire à ta place en gardant tous tes fichiers et programmes.\n• Pour les PC bloqués sur Windows 10 : ZEUS te guide vers 0patch, une protection sérieuse qui continue jusqu\u0027en 2030, en plus du programme gratuit de Microsoft pendant qu\u0027il dure encore.\n• Nouvelle carte « Démarrage de Windows » dans Outils : vois quels programmes se lancent au démarrage et désactive ceux dont tu n\u0027as pas besoin, sans rien supprimer (toujours réversible).\n• Nouvelle carte « Benchmark réel » dans Outils : un vrai test de quelques secondes qui mesure ton processeur, ta mémoire et ton disque, pour comparer avant/après une optimisation.\n• Le compteur FPS garde maintenant un historique de tes parties (FPS moyen, minimum, 1% low) consultable dans sa fenêtre de réglages.\n• Les fenêtres « Mises à jour logiciels » et « Mises à jour pilotes » ont été redessinées pour être plus claires et plus agréables à l\u0027œil.\n• Les mises à jour passent maintenant par Zeus : plus de vérification en ligne au démarrage.\n• Correctif : le logiciel ne s\u0027ouvre plus tout seul quand Zeus l\u0027installe en silencieux (il ne se relance que s\u0027il tournait déjà avant la mise à jour).",
+                                          "sha256":  "9629e478befce71c2551d71044c4c2f4930ea89c90aa67613b0b42d47324c995",
+                                          "size":  159659730,
+                                          "date":  "2026-10-20",
                                           "args":  "/SILENT /SUPPRESSMSGBOXES /NORESTART /CLOSEAPPLICATIONS",
-                                          "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/optimisation-v1.0.6/ZeusOptimisation-Setup-1.0.6.exe"
+                                          "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/optimisation-v1.0.8/ZeusOptimisation-Setup-1.0.8.exe"
                                       },
                      "zeus":  {
                                   "name":  "Zeus",
-                                  "latest":  "2.5.5",
+                                  "latest":  "2.5.6",
                                   "importance":  "nouveautes",
-                                  "notes":  "• Le bandeau de mise à jour est plus clair : les 3 nouveautés principales, une par ligne, et « voir tout » pour le reste\n• Contient Zeus Optimisation 1.0.6\n• Contient Zeus Shield 1.0.3",
-                                  "sha256":  "56cd0785c01e84de0323d0664a06ae0a4865e825c0af178ddf07f4880138d942",
-                                  "size":  279455792,
-                                  "date":  "2026-10-19",
+                                  "notes":  "• Nouveau : Zeus apprend de vos conversations. Quand tu choisis le bon sujet ou qu\u0027une reformulation règle ton problème, il retient ta façon de le dire\n• Nouveau : une solution trouvée avec l\u0027IA et validée (« c\u0027est bon », « merci ») est gardée : Zeus peut la redonner ensuite, même sans l\u0027IA\n• Nouveau : « retiens que… », « tu sais quoi sur moi ? », « oublie… » : Zeus a une mémoire, qui reste sur le PC (Réglages \u003e Mémoire de Zeus)\n• Zeus comprend les fautes « à l\u0027oreille » (« pilotte grafique », « konexion », « ma batri », « ventilatteur »…)\n• Plus personnel : Zeus se souvient du dernier problème, remarque quand un souci revient souvent, et dit « oups » quand il s\u0027est trompé de sujet\n• L\u0027assistant IA est plus curieux : il pose la bonne question quand il lui manque une info et se sert de ce que tu lui as appris\n• Zeus connaît maintenant tout Zeus Optimisation tel qu\u0027il est : profils de jeu (léger, complet, qualité) et partage .zeusgame, les 13 outils (sensibilité, ventilateurs, cache de shaders, viseur, benchmark…), historique du PC, 0patch pour rester sous Windows 10, ticket de support Discord\n• Zeus connaît l\u0027état de la licence de Zeus Defrag (essai, jours restants, licence active) et explique comment entrer sa clé\n• Nouveau : Zeus Defrag, 3e logiciel de la gamme (disques, nettoyage, démarrage), avec l\u0027avis de Zeus selon tes disques : disque dur classique ou SSD\n• Zeus connaît maintenant le type de chaque disque (disque dur ou SSD)\n• Correctif : le bouton « Mettre à jour » de Zeus Optimisation et Zeus Shield affiche l\u0027avancement (téléchargement, installation) puis le résultat, et la carte « obsolète » disparaît une fois la mise à jour faite\n• Correctif : « Tout régler » plantait au nettoyage des fichiers temporaires quand il y en avait plusieurs\n• Journal de Zeus beaucoup plus léger (plus de fausses erreurs)\n• Correctif : Zeus ne propose plus en boucle une mise à jour déjà installée (il lit aussi la version écrite dans le logiciel)\n• Après une mise à jour, Zeus vérifie que la nouvelle version est bien là, et explique quoi faire sinon\n• Setup de Zeus beaucoup plus léger (environ 1 Mo au lieu de 280) : les logiciels se téléchargent au choix\n• La progression du téléchargement des logiciels s\u0027affiche en pourcentage\n• Contient Zeus Optimisation 1.0.8\n• Contient Zeus Shield 1.0.3\n• Contient Zeus Defrag 1.0.0",
+                                  "sha256":  "87101eb332f619f3ea2fcc65c43d73a7b257096425dadf02b10357f7f83f7400",
+                                  "size":  280924064,
+                                  "date":  "2026-10-20",
                                   "args":  "/S",
-                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.5/Zeus-Setup-2.5.5.exe"
+                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.6/Zeus-Setup-2.5.6.exe"
                               },
                      "shield":  {
                                     "name":  "Zeus Shield",
