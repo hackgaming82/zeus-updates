@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-19T02:45:23.2575830Z",
+    "updated":  "2026-10-20T00:01:05.3511996Z",
     "products":  {
                      "optimisation":  {
                                           "name":  "Zeus Optimisation",
@@ -14,25 +14,36 @@
                                       },
                      "zeus":  {
                                   "name":  "Zeus",
-                                  "latest":  "2.5.4",
+                                  "latest":  "2.5.5",
                                   "importance":  "nouveautes",
-                                  "notes":  "• Nouveau : « ouvre l\u0027explorateur de fichiers » ouvre directement l\u0027Explorateur\n• Zeus comprend les mots collés sans apostrophe (« lexplorateur », « lecran », « sallumer »)\n• Zeus répond quand on lui demande ce qu\u0027il pense de lui (« que penses-tu de ta création »)\n• Un prénom tapé tout en majuscules s\u0027affiche normalement (« HENZO » → « Henzo »)\n• Zeus Shield s\u0027installe depuis Zeus sans aucune question (avec la prochaine version de Zeus Shield)\n• Nouveau : Zeus voit les nouvelles versions de Zeus, Zeus Optimisation et Zeus Shield publiées en ligne, sans réinstaller Zeus\n• La mise à jour de Zeus se télécharge en arrière-plan, avec le pourcentage, et ne fige plus la fenêtre\n• Contient Zeus Optimisation 1.0.6\n• Contient Zeus Shield 1.0.2",
-                                  "sha256":  "9b3bd1083872a4bebe03015dbb9c617d43bade10afec5e5baf17515646f290b6",
-                                  "size":  279446640,
+                                  "notes":  "• Le bandeau de mise à jour est plus clair : les 3 nouveautés principales, une par ligne, et « voir tout » pour le reste\n• Contient Zeus Optimisation 1.0.6\n• Contient Zeus Shield 1.0.3",
+                                  "sha256":  "56cd0785c01e84de0323d0664a06ae0a4865e825c0af178ddf07f4880138d942",
+                                  "size":  279455792,
                                   "date":  "2026-10-19",
                                   "args":  "/S",
-                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.4/Zeus-Setup-2.5.4.exe"
+                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.5/Zeus-Setup-2.5.5.exe"
                               },
                      "shield":  {
                                     "name":  "Zeus Shield",
-                                    "latest":  "1.0.2",
+                                    "latest":  "1.0.3",
                                     "importance":  "correctif",
-                                    "notes":  "• Zeus Shield s\u0027installe et se met à jour depuis Zeus, sans aucune question\n• Zeus Shield apparaît dans « Applications installées » et peut s\u0027y désinstaller\n• Nouveau : boutons « Demander à Zeus », « Vérifier les mises à jour » et « Bilan de santé du PC »",
-                                    "sha256":  "35a49016462d9b4de7dd879ffe099a56d91d3655459ada6284c4365e93336a67",
-                                    "size":  118401172,
+                                    "notes":  "Correctifs et améliorations.",
+                                    "sha256":  "b51659a2f6cfe176d62e9df416a07bdfc1402516522de194f12707ed5106fe3b",
+                                    "size":  118409364,
                                     "date":  "2026-10-19",
                                     "args":  "--zeus-update",
-                                    "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/shield-v1.0.2/ZeusShield-Setup-1.0.2.exe"
+                                    "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/shield-v1.0.3/ZeusShield-Setup-1.0.3.exe"
+                                },
+                     "defrag":  {
+                                    "name":  "Zeus Defrag",
+                                    "latest":  "1.0.0",
+                                    "importance":  "nouveautes",
+                                    "notes":  "• Optima devient Zeus Defrag, le 3e logiciel de la gamme Zeus, avec un nouveau look bleu\n• Carte du disque animée : on voit les blocs se ranger pendant l\u0027optimisation\n• Défragmentation des disques durs et TRIM des SSD (jamais de défragmentation d\u0027un SSD)\n• Santé des disques : température, usure des SSD, erreurs signalées par Windows\n• Assistant SSD : TRIM de Windows, dernier TRIM, température, usure, marge d\u0027espace libre, alignement des partitions et entretien automatique, avec la marche à suivre pour chaque point\n• Espace disque : retrouve les dossiers et les gros fichiers qui prennent de la place\n• Fichiers en double : trouve les copies inutiles et les met à la corbeille\n• Récupération de fichiers : corbeille, fichiers supprimés retrouvés directement sur le disque (avec leurs chances de récupération), anciennes versions gardées par Windows et fragments réparés (FOUND.000)\n• Planification : optimisation automatique chaque semaine, à l\u0027heure de ton choix\n• Vérification des disques : recherche d\u0027erreurs sans rien modifier, réparation sur un clic\n• Déplacer mes dossiers : Documents, Téléchargements, Images... vers un autre disque, et retour possible\n• Effacement sécurisé : fichiers effacés pour de bon, espace libre nettoyé (TRIM sur les SSD)\n• Historique des disques : courbes d\u0027espace libre, de fragmentation, de température et d\u0027usure\n• Surveillance en arrière-plan : une alerte discrète si un disque est presque plein ou signale un problème\n• Paramètres : licence, surveillance, tes données, à propos\n• Boutons « Demander à Zeus » et « Bilan de santé du PC avec Zeus »\n• 6 langues : français, anglais, espagnol, allemand, italien et portugais (Paramètres \u003e Langue)\n• Explications simples ou techniques au choix (Paramètres \u003e Explications)\n• Licence : essai gratuit de 14 jours, puis activation avec une clé Zeus\n• Tes réglages et ton historique sont rangés dans %LOCALAPPDATA%\\Zeus Defrag et restent sur ton PC",
+                                    "sha256":  "1c594191ce54a18a62a67d83ac26d300733b64a503a3c6b2651624e96384dd51",
+                                    "size":  1348616,
+                                    "date":  "2026-10-20",
+                                    "args":  "/S",
+                                    "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/defrag-v1.0.0/ZeusDefrag-Setup-1.0.0.exe"
                                 }
                  }
 }
