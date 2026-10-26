@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-26T00:45:38.2656181Z",
+    "updated":  "2026-10-26T01:04:57.6665749Z",
     "products":  {
                      "optimisation":  {
                                           "name":  "Zeus Optimisation",
@@ -15,15 +15,15 @@
                                       },
                      "zeus":  {
                                   "name":  "Zeus",
-                                  "latest":  "2.5.11",
+                                  "latest":  "2.5.12",
                                   "importance":  "nouveautes",
-                                  "notes":  "• Windows 7 / 8 : l\u0027assistant IA local n\u0027est plus proposé à l\u0027installation (il demande Windows 10 ou 11 et échouait avec « Could not create SSL/TLS secure channel ») ; le mode guidé marche normalement",
-                                  "sha256":  "e5e5721991ab6fc589ec10ec81ccaa6ff2dc6d6aba198fed87e7286100887eb2",
-                                  "size":  1773176,
+                                  "notes":  "Mises à jour des logiciels Zeus.",
+                                  "sha256":  "40675e7ad6cb47c35aaa13eda45f875b7af24f9c1e0a2c46719a402250d67ddd",
+                                  "size":  1773368,
                                   "date":  "2026-10-26",
                                   "args":  "/S",
                                   "win7":  true,
-                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.11/Zeus-IA-Setup-2.5.11.exe",
+                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.12/Zeus-IA-Setup-2.5.12.exe",
                                   "win7Pack":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-windows7/Zeus-IA-Setup-Windows7.exe"
                               },
                      "shield":  {
