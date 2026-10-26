@@ -1,29 +1,29 @@
 {
-    "updated":  "2026-10-25T23:46:35.5965960Z",
+    "updated":  "2026-10-26T00:45:38.2656181Z",
     "products":  {
                      "optimisation":  {
                                           "name":  "Zeus Optimisation",
-                                          "latest":  "1.0.11",
-                                          "importance":  "nouveautes",
-                                          "notes":  "• Zeus Link : Zeus (l\u0027assistant) voit ton score et les FPS de tes dernières parties, et peut ouvrir Zeus Optimisation sur la bonne page ou lancer l\u0027analyse du PC\n• Édition Windows 7 / 8.1 : même logiciel compilé pour .NET Framework 4.8 (projet « Zeus FPS Win7 », installateur ZEUS_CORE_Setup_x.y.z_Windows7.exe). Les réglages qui n\u0027existent pas sous Windows 7 (Widgets, Copilot, Game Bar, télémétrie de Windows 10…) y sont affichés « non pris en charge »\n• Passage de Windows 7 à Windows 10 : mise à niveau directe dans l\u0027outil officiel de Microsoft (« Mettre à niveau ce PC maintenant »), sans fichier ISO à monter\n• Sous Windows 7, les boutons qui ouvraient les Paramètres de Windows 10 ouvrent la bonne page du Panneau de configuration",
-                                          "sha256":  "256adae0d9387c30932f23806bedff32782a531e5a2979d5622888840dd4abf0",
-                                          "size":  167240391,
-                                          "date":  "2026-10-25",
+                                          "latest":  "1.0.12",
+                                          "importance":  "correctif",
+                                          "notes":  "• Windows 7 : « Installer Windows 10 » marche maintenant (l\u0027outil de Microsoft s\u0027arrêtait avec l\u0027erreur 0x80072F8F). Zeus installe d\u0027abord la mise à jour de sécurité officielle de Microsoft (TLS 1.2, KB3140245) et vérifie la date du PC",
+                                          "sha256":  "7703e6c521b8ed36977ba9e04474d4e09c922baccc28bce1a5f73ccb3eefbff2",
+                                          "size":  167253429,
+                                          "date":  "2026-10-26",
                                           "args":  "/SILENT /SUPPRESSMSGBOXES /NORESTART /CLOSEAPPLICATIONS",
                                           "win7":  true,
-                                          "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/optimisation-v1.0.11/Zeus-Optimisation-Setup-1.0.11.exe"
+                                          "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/optimisation-v1.0.12/Zeus-Optimisation-Setup-1.0.12.exe"
                                       },
                      "zeus":  {
                                   "name":  "Zeus",
-                                  "latest":  "2.5.10",
+                                  "latest":  "2.5.11",
                                   "importance":  "nouveautes",
-                                  "notes":  "Mises à jour des logiciels Zeus.",
-                                  "sha256":  "2db19d615bdcb0b039ad3478cd0c139cf0ea16632f64e8687ac9f9f6e2c877c1",
-                                  "size":  1773472,
+                                  "notes":  "• Windows 7 / 8 : l\u0027assistant IA local n\u0027est plus proposé à l\u0027installation (il demande Windows 10 ou 11 et échouait avec « Could not create SSL/TLS secure channel ») ; le mode guidé marche normalement",
+                                  "sha256":  "e5e5721991ab6fc589ec10ec81ccaa6ff2dc6d6aba198fed87e7286100887eb2",
+                                  "size":  1773176,
                                   "date":  "2026-10-26",
                                   "args":  "/S",
                                   "win7":  true,
-                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.10/Zeus-IA-Setup-2.5.10.exe",
+                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.11/Zeus-IA-Setup-2.5.11.exe",
                                   "win7Pack":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-windows7/Zeus-IA-Setup-Windows7.exe"
                               },
                      "shield":  {
