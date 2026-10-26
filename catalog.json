@@ -1,29 +1,29 @@
 {
-    "updated":  "2026-10-26T01:21:16.7508621Z",
+    "updated":  "2026-10-26T01:40:14.9217813Z",
     "products":  {
                      "optimisation":  {
                                           "name":  "Zeus Optimisation",
-                                          "latest":  "1.0.13",
+                                          "latest":  "1.0.14",
                                           "importance":  "correctif",
-                                          "notes":  "• Windows 7 : « Installer Windows 10 » ne s\u0027arrête plus sur le code -2145124329 (mise à jour KB3140245 déjà incluse dans Windows) ; Zeus met aussi à jour les certificats de sécurité de Windows 7 (liste officielle de Microsoft) avant d\u0027ouvrir l\u0027outil de Microsoft",
-                                          "sha256":  "0566f419b1e7d7592227a14ac94147699bb0c0f071a23ffa27ea04eef7065245",
-                                          "size":  167244396,
+                                          "notes":  "• Windows 7 : la mise à jour de sécurité KB3140245 s\u0027installe maintenant en quelques minutes (avant, l\u0027installateur de Windows pouvait rester bloqué très longtemps sur « Mise à jour de sécurité Microsoft… »)\n• Windows 7 / 8 : la page s\u0027appelle « Windows 10 » et va droit au but (passer à Windows 10), sans la liste Windows 11 qui ne concerne pas ces PC ; contenu centré, plus de grand vide noir à droite\n• Nouveau réglage « Fonctions pour les jeux » (Paramètres \u003e Jeux) : si tu ne joues pas, ZEUS masque Mes jeux, Stream et les outils de jeu (viseur, compteur FPS, sensibilité, benchmark, émulateurs…) et ne cherche plus les jeux : plus simple et plus léger. ZEUS te pose la question une fois au premier lancement",
+                                          "sha256":  "4efc80a83833a437cfb470263784ce2364dd641cf0baf95b40ada9b786d61ba6",
+                                          "size":  167253328,
                                           "date":  "2026-10-26",
                                           "args":  "/SILENT /SUPPRESSMSGBOXES /NORESTART /CLOSEAPPLICATIONS",
                                           "win7":  true,
-                                          "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/optimisation-v1.0.13/Zeus-Optimisation-Setup-1.0.13.exe"
+                                          "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/optimisation-v1.0.14/Zeus-Optimisation-Setup-1.0.14.exe"
                                       },
                      "zeus":  {
                                   "name":  "Zeus",
-                                  "latest":  "2.5.13",
+                                  "latest":  "2.5.14",
                                   "importance":  "nouveautes",
                                   "notes":  "Mises à jour des logiciels Zeus.",
-                                  "sha256":  "1ac833d00d26c845e65e4d9840a0d3b9efe60e8bb9bb2f702b4ded710468398c",
-                                  "size":  1773200,
+                                  "sha256":  "931b5efe4a6820b38aa3f34e0b7f111b406f02fb16b0e2c90696ddc4f662c5d8",
+                                  "size":  1773680,
                                   "date":  "2026-10-26",
                                   "args":  "/S",
                                   "win7":  true,
-                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.13/Zeus-IA-Setup-2.5.13.exe",
+                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.14/Zeus-IA-Setup-2.5.14.exe",
                                   "win7Pack":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-windows7/Zeus-IA-Setup-Windows7.exe"
                               },
                      "shield":  {
