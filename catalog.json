@@ -1,29 +1,29 @@
 {
-    "updated":  "2026-10-26T01:04:57.6665749Z",
+    "updated":  "2026-10-26T01:21:16.7508621Z",
     "products":  {
                      "optimisation":  {
                                           "name":  "Zeus Optimisation",
-                                          "latest":  "1.0.12",
+                                          "latest":  "1.0.13",
                                           "importance":  "correctif",
-                                          "notes":  "• Windows 7 : « Installer Windows 10 » marche maintenant (l\u0027outil de Microsoft s\u0027arrêtait avec l\u0027erreur 0x80072F8F). Zeus installe d\u0027abord la mise à jour de sécurité officielle de Microsoft (TLS 1.2, KB3140245) et vérifie la date du PC",
-                                          "sha256":  "7703e6c521b8ed36977ba9e04474d4e09c922baccc28bce1a5f73ccb3eefbff2",
-                                          "size":  167253429,
+                                          "notes":  "• Windows 7 : « Installer Windows 10 » ne s\u0027arrête plus sur le code -2145124329 (mise à jour KB3140245 déjà incluse dans Windows) ; Zeus met aussi à jour les certificats de sécurité de Windows 7 (liste officielle de Microsoft) avant d\u0027ouvrir l\u0027outil de Microsoft",
+                                          "sha256":  "0566f419b1e7d7592227a14ac94147699bb0c0f071a23ffa27ea04eef7065245",
+                                          "size":  167244396,
                                           "date":  "2026-10-26",
                                           "args":  "/SILENT /SUPPRESSMSGBOXES /NORESTART /CLOSEAPPLICATIONS",
                                           "win7":  true,
-                                          "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/optimisation-v1.0.12/Zeus-Optimisation-Setup-1.0.12.exe"
+                                          "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/optimisation-v1.0.13/Zeus-Optimisation-Setup-1.0.13.exe"
                                       },
                      "zeus":  {
                                   "name":  "Zeus",
-                                  "latest":  "2.5.12",
+                                  "latest":  "2.5.13",
                                   "importance":  "nouveautes",
                                   "notes":  "Mises à jour des logiciels Zeus.",
-                                  "sha256":  "40675e7ad6cb47c35aaa13eda45f875b7af24f9c1e0a2c46719a402250d67ddd",
-                                  "size":  1773368,
+                                  "sha256":  "1ac833d00d26c845e65e4d9840a0d3b9efe60e8bb9bb2f702b4ded710468398c",
+                                  "size":  1773200,
                                   "date":  "2026-10-26",
                                   "args":  "/S",
                                   "win7":  true,
-                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.12/Zeus-IA-Setup-2.5.12.exe",
+                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.13/Zeus-IA-Setup-2.5.13.exe",
                                   "win7Pack":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-windows7/Zeus-IA-Setup-Windows7.exe"
                               },
                      "shield":  {
