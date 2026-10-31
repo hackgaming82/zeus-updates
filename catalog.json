@@ -1,29 +1,29 @@
 {
-    "updated":  "2026-10-26T01:40:14.9217813Z",
+    "updated":  "2026-10-31T01:02:05.6682341Z",
     "products":  {
                      "optimisation":  {
                                           "name":  "Zeus Optimisation",
-                                          "latest":  "1.0.14",
+                                          "latest":  "1.0.15",
                                           "importance":  "correctif",
-                                          "notes":  "• Windows 7 : la mise à jour de sécurité KB3140245 s\u0027installe maintenant en quelques minutes (avant, l\u0027installateur de Windows pouvait rester bloqué très longtemps sur « Mise à jour de sécurité Microsoft… »)\n• Windows 7 / 8 : la page s\u0027appelle « Windows 10 » et va droit au but (passer à Windows 10), sans la liste Windows 11 qui ne concerne pas ces PC ; contenu centré, plus de grand vide noir à droite\n• Nouveau réglage « Fonctions pour les jeux » (Paramètres \u003e Jeux) : si tu ne joues pas, ZEUS masque Mes jeux, Stream et les outils de jeu (viseur, compteur FPS, sensibilité, benchmark, émulateurs…) et ne cherche plus les jeux : plus simple et plus léger. ZEUS te pose la question une fois au premier lancement",
-                                          "sha256":  "4efc80a83833a437cfb470263784ce2364dd641cf0baf95b40ada9b786d61ba6",
-                                          "size":  167253328,
-                                          "date":  "2026-10-26",
+                                          "notes":  "• Mode léger automatique sur les petits PC (1 cœur, moins de 3 Go, ou carte graphique « basique » comme en machine virtuelle) : les effets d\u0027ombre et de flou sont retirés et les animations coupées. Ça corrige l\u0027affichage (des éléments qui ne s\u0027affichaient pas ou mal sous Windows 7 en VM) et rend ZEUS bien plus rapide. Sur un PC normal (2 cœurs / 4 Go et plus), rien ne change\n• Page Windows : Zeus indique l\u0027état de la licence (Windows activé, licence numérique, ou licence intégrée à la carte mère pour les PC vendus avec Windows 8 et plus récents) et l\u0027édition à choisir pour une réinstallation. Zeus vérifie seulement si la licence existe : il ne lit jamais la clé\n• Windows 7 non activé : guide clair (clé sur l\u0027étiquette du PC, licence officielle, ou Linux Mint gratuit) et nouveau bouton « Sauvegarder mes fichiers » (Documents, Bureau, Images, Musique, Vidéos, Téléchargements, Favoris) sur une clé USB ou un autre disque\n• Windows 7 non activé : Zeus le dit tout de suite et explique comment activer Windows 7 avec sa vraie clé, au lieu de laisser l\u0027outil de Microsoft bloquer sur « Clé de produit »",
+                                          "sha256":  "8b2b9c5e36899baa5ee1ecb62cb3b89861c7054268b9b619ca99d05b4133f6bd",
+                                          "size":  167276122,
+                                          "date":  "2026-10-31",
                                           "args":  "/SILENT /SUPPRESSMSGBOXES /NORESTART /CLOSEAPPLICATIONS",
                                           "win7":  true,
-                                          "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/optimisation-v1.0.14/Zeus-Optimisation-Setup-1.0.14.exe"
+                                          "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/optimisation-v1.0.15/Zeus-Optimisation-Setup-1.0.15.exe"
                                       },
                      "zeus":  {
                                   "name":  "Zeus",
-                                  "latest":  "2.5.14",
+                                  "latest":  "2.5.15",
                                   "importance":  "nouveautes",
-                                  "notes":  "Mises à jour des logiciels Zeus.",
-                                  "sha256":  "931b5efe4a6820b38aa3f34e0b7f111b406f02fb16b0e2c90696ddc4f662c5d8",
-                                  "size":  1773680,
-                                  "date":  "2026-10-26",
+                                  "notes":  "• Zeus IA consomme moins de mémoire : sa fenêtre s\u0027ouvre en mode économe (pas d\u0027extensions, pas de synchronisation, un seul processus d\u0027affichage) et encore plus légère sur un PC avec peu de mémoire ou Windows 7\n• L\u0027analyse du PC au premier lancement ne reste plus bloquée sur « Jeux et démarrage » / « Protection » : sur un vieux PC lent (Windows 7, peu de mémoire), Zeus saute les infos matérielles les plus lentes et n\u0027attend jamais indéfiniment (40 s maximum), puis continue\n• Windows 7 : correction du blocage « Accès refusé » à l\u0027installation des composants de Microsoft. Un programme normal ne pouvait pas attendre le programme administrateur qui installe .NET 4.8 et PowerShell 5.1 ; Zeus passe maintenant par un signal de fin, l\u0027installation se termine normalement\n• Windows 7 : plus d\u0027Internet Explorer. Quand il faut la version Windows 7, Zeus copie le lien et ouvre un navigateur récent (Chrome, Opera, Edge) s\u0027il y en a un",
+                                  "sha256":  "b4d429f2846a2c0c1aa6b86ffe25a7c2bbe368c0289c69f2d58cd9badc0a5844",
+                                  "size":  1786368,
+                                  "date":  "2026-10-31",
                                   "args":  "/S",
                                   "win7":  true,
-                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.14/Zeus-IA-Setup-2.5.14.exe",
+                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.15/Zeus-IA-Setup-2.5.15.exe",
                                   "win7Pack":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-windows7/Zeus-IA-Setup-Windows7.exe"
                               },
                      "shield":  {
