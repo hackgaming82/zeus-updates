@@ -1,29 +1,29 @@
 {
-    "updated":  "2026-10-31T01:02:05.6682341Z",
+    "updated":  "2026-11-14T22:26:29.0527535Z",
     "products":  {
                      "optimisation":  {
                                           "name":  "Zeus Optimisation",
-                                          "latest":  "1.0.15",
+                                          "latest":  "2.0.1",
                                           "importance":  "correctif",
-                                          "notes":  "• Mode léger automatique sur les petits PC (1 cœur, moins de 3 Go, ou carte graphique « basique » comme en machine virtuelle) : les effets d\u0027ombre et de flou sont retirés et les animations coupées. Ça corrige l\u0027affichage (des éléments qui ne s\u0027affichaient pas ou mal sous Windows 7 en VM) et rend ZEUS bien plus rapide. Sur un PC normal (2 cœurs / 4 Go et plus), rien ne change\n• Page Windows : Zeus indique l\u0027état de la licence (Windows activé, licence numérique, ou licence intégrée à la carte mère pour les PC vendus avec Windows 8 et plus récents) et l\u0027édition à choisir pour une réinstallation. Zeus vérifie seulement si la licence existe : il ne lit jamais la clé\n• Windows 7 non activé : guide clair (clé sur l\u0027étiquette du PC, licence officielle, ou Linux Mint gratuit) et nouveau bouton « Sauvegarder mes fichiers » (Documents, Bureau, Images, Musique, Vidéos, Téléchargements, Favoris) sur une clé USB ou un autre disque\n• Windows 7 non activé : Zeus le dit tout de suite et explique comment activer Windows 7 avec sa vraie clé, au lieu de laisser l\u0027outil de Microsoft bloquer sur « Clé de produit »",
-                                          "sha256":  "8b2b9c5e36899baa5ee1ecb62cb3b89861c7054268b9b619ca99d05b4133f6bd",
-                                          "size":  167276122,
-                                          "date":  "2026-10-31",
+                                          "notes":  "Correctifs et améliorations.",
+                                          "sha256":  "9d9bde72f12b2b588114e537c368d9b36418bd16f8ff14656862c0eb2ecab316",
+                                          "size":  170149589,
+                                          "date":  "2026-11-14",
                                           "args":  "/SILENT /SUPPRESSMSGBOXES /NORESTART /CLOSEAPPLICATIONS",
                                           "win7":  true,
-                                          "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/optimisation-v1.0.15/Zeus-Optimisation-Setup-1.0.15.exe"
+                                          "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/optimisation-v2.0.1/Zeus-Optimisation-Setup-2.0.1.exe"
                                       },
                      "zeus":  {
                                   "name":  "Zeus",
-                                  "latest":  "2.5.15",
+                                  "latest":  "2.5.16",
                                   "importance":  "nouveautes",
-                                  "notes":  "• Zeus IA consomme moins de mémoire : sa fenêtre s\u0027ouvre en mode économe (pas d\u0027extensions, pas de synchronisation, un seul processus d\u0027affichage) et encore plus légère sur un PC avec peu de mémoire ou Windows 7\n• L\u0027analyse du PC au premier lancement ne reste plus bloquée sur « Jeux et démarrage » / « Protection » : sur un vieux PC lent (Windows 7, peu de mémoire), Zeus saute les infos matérielles les plus lentes et n\u0027attend jamais indéfiniment (40 s maximum), puis continue\n• Windows 7 : correction du blocage « Accès refusé » à l\u0027installation des composants de Microsoft. Un programme normal ne pouvait pas attendre le programme administrateur qui installe .NET 4.8 et PowerShell 5.1 ; Zeus passe maintenant par un signal de fin, l\u0027installation se termine normalement\n• Windows 7 : plus d\u0027Internet Explorer. Quand il faut la version Windows 7, Zeus copie le lien et ouvre un navigateur récent (Chrome, Opera, Edge) s\u0027il y en a un",
-                                  "sha256":  "b4d429f2846a2c0c1aa6b86ffe25a7c2bbe368c0289c69f2d58cd9badc0a5844",
-                                  "size":  1786368,
-                                  "date":  "2026-10-31",
+                                  "notes":  "Mises à jour des logiciels Zeus.",
+                                  "sha256":  "484add0b5a3c4c4ebcf6073b49c6ae72490fceac3cbc5ed2c6534bcaa7c88ec8",
+                                  "size":  1923720,
+                                  "date":  "2026-11-14",
                                   "args":  "/S",
                                   "win7":  true,
-                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.15/Zeus-IA-Setup-2.5.15.exe",
+                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.16/Zeus-IA-Setup-2.5.16.exe",
                                   "win7Pack":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-windows7/Zeus-IA-Setup-Windows7.exe"
                               },
                      "shield":  {
