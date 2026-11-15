@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-11-14T22:26:29.0527535Z",
+    "updated":  "2026-11-15T21:18:18.0046575Z",
     "products":  {
                      "optimisation":  {
                                           "name":  "Zeus Optimisation",
@@ -15,15 +15,15 @@
                                       },
                      "zeus":  {
                                   "name":  "Zeus",
-                                  "latest":  "2.5.16",
+                                  "latest":  "2.5.17",
                                   "importance":  "nouveautes",
-                                  "notes":  "Mises à jour des logiciels Zeus.",
-                                  "sha256":  "484add0b5a3c4c4ebcf6073b49c6ae72490fceac3cbc5ed2c6534bcaa7c88ec8",
-                                  "size":  1923720,
-                                  "date":  "2026-11-14",
+                                  "notes":  "• **Zeus AI a enfin sa propre couleur : le violet.** Chaque logiciel de la gamme a maintenant la sienne — vert pour Optimisation, or pour Shield, bleu pour Defrag, violet pour Zeus AI. Ce n\u0027est pas décoratif : c\u0027est déjà la couleur que les autres logiciels emploient quand ils parlent d\u0027intelligence. Zeus AI étant le cerveau de la suite, elle lui revenait\n• Les fonds restent volontairement presque neutres : le violet sert à désigner ce qui compte, pas à repeindre l\u0027écran\n• **Le vert, l\u0027orange et le rouge sont exactement les mêmes que dans les trois autres logiciels.** « Tout va bien » et « il y a un problème » se disent de la même couleur d\u0027un bout à l\u0027autre du pack\n• Lisibilité vérifiée réglage par réglage : les petits textes violets ont été éclaircis (ils passent de 3,5 à 8 pour 1 de contraste sur le fond), et le texte blanc des boutons est maintenant plus lisible qu\u0027avant (5,7 contre 3,4)\n• Ménage dans la feuille de style : la variable de couleur principale s\u0027appelait encore « gold » alors qu\u0027elle contenait du bleu depuis des mois. Elle s\u0027appelle « accent », et la règle d\u0027usage est écrite juste à côté",
+                                  "sha256":  "bdfc0c925eaa8072f9712489ed80ffdb96eee8ec88c71220c12b1599cf73ab88",
+                                  "size":  1927784,
+                                  "date":  "2026-11-15",
                                   "args":  "/S",
                                   "win7":  true,
-                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.16/Zeus-IA-Setup-2.5.16.exe",
+                                  "url":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-v2.5.17/Zeus-IA-Setup-2.5.17.exe",
                                   "win7Pack":  "https://github.com/hackgaming82/zeus-updates/releases/download/zeus-windows7/Zeus-IA-Setup-Windows7.exe"
                               },
                      "shield":  {
