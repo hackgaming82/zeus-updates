@@ -1,0 +1,15 @@
+{
+  "product": "zeus-clip",
+  "name": "Zeus Clip",
+  "version": "0.8.0",
+  "channel": "preview",
+  "available": false,
+  "windows": "10/11 x64",
+  "asset_name": "ZeusClip-0.8.0-Windows-x64.zip",
+  "download_url": null,
+  "size_bytes": 1666339658,
+  "sha256": "69cbc69ed34fca425d7cd42173ac1c339a733651d36391ad76dcdc7b2a605b14",
+  "released_at": null,
+  "message": "Le flux est prêt. Le paquet d’installation sera activé à la publication de la première version Zeus Clip."
+}
+
