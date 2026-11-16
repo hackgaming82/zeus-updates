@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - name: Build latest.json from the published release
         run: python3 clip/update_feed.py "$GITHUB_EVENT_PATH"
         env:
@@ -22,7 +24,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOSITORY: ${{ github.repository }}
         run: |
-          content=$(base64 -w 0 latest.json)
+          content=$(base64 -w 0 clip/latest.json)
           sha=$(gh api "repos/${REPOSITORY}/contents/clip/latest.json?ref=main" --jq .sha)
           gh api --method PUT "repos/${REPOSITORY}/contents/clip/latest.json" \
             -f message="Publish Zeus Clip ${GITHUB_REF_NAME} feed" \
