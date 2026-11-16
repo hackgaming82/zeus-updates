@@ -1,0 +1,61 @@
+name: Update Zeus Clip release feed
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    if: startsWith(github.event.release.tag_name, 'zeus-clip-v')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build latest.json from the published release
+        env:
+          EVENT_PATH: ${{ github.event_path }}
+        run: |
+          python3 - <<'PY'
+          import json, os, pathlib, sys
+          event = json.loads(pathlib.Path(os.environ['EVENT_PATH']).read_text())
+          release = event['release']
+          tag = release['tag_name']
+          prefix = 'zeus-clip-v'
+          version = tag[len(prefix):]
+          asset = next((a for a in release.get('assets', [])
+                        if a.get('name', '').startswith('ZeusClip-')
+                        and a.get('name', '').endswith('-Windows-x64.zip')),
+                       None)
+          if not version or asset is None:
+              sys.exit('Release Zeus Clip: archive Windows x64 introuvable.')
+          digest = asset.get('digest') or ''
+          if digest.startswith('sha256:'):
+              digest = digest[7:]
+          feed = {
+              'product': 'zeus-clip',
+              'name': 'Zeus Clip',
+              'version': version,
+              'channel': 'preview' if release.get('prerelease') else 'stable',
+              'available': True,
+              'windows': '10/11 x64',
+              'asset_name': asset['name'],
+              'download_url': asset['browser_download_url'],
+              'size_bytes': asset['size'],
+              'sha256': digest,
+              'released_at': release.get('published_at'),
+              'message': 'Version publiée.'
+          }
+          pathlib.Path('latest.json').write_text(json.dumps(feed, ensure_ascii=False, indent=2) + '\n')
+          PY
+      - name: Publish the feed on the default branch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          content=$(base64 -w 0 latest.json)
+          sha=$(gh api "repos/${REPOSITORY}/contents/clip/latest.json?ref=main" --jq .sha)
+          gh api --method PUT "repos/${REPOSITORY}/contents/clip/latest.json" \
+            -f message="Publish Zeus Clip ${GITHUB_REF_NAME} feed" \
+            -f content="${content}" -f sha="${sha}" -f branch=main
+
