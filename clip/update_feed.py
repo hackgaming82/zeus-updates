@@ -41,7 +41,9 @@ def main() -> int:
         "released_at": release.get("published_at"),
         "message": "Version publiée.",
     }
-    Path("clip/latest.json").write_text(
+    feed_path = Path("clip/latest.json")
+    feed_path.parent.mkdir(parents=True, exist_ok=True)
+    feed_path.write_text(
         json.dumps(feed, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     return 0
